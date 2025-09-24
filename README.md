@@ -35,6 +35,14 @@ A simple and intelligent macOS app that prevents your computer from going to sle
 
 4. Build and run on your device
 
+### Troubleshooting
+
+If the project doesn't compile due to LaunchAtLogin package issues:
+1. In Xcode, go to Project Settings → Package Dependencies
+2. Remove the LaunchAtLogin package
+3. Re-add it by clicking "+" and entering: `https://github.com/sindresorhus/LaunchAtLogin-Modern`
+4. Select version 5.0.0 and add to target
+
 ## Requirements
 
 - macOS 13.0+
