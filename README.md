@@ -1,8 +1,10 @@
 # Mouse Jiggler
 
-<img src="https://i.imgur.com/4IyAVsB.png" alt="Mouse Jiggler Interface" width="25%">
-
 A simple and intelligent macOS app that prevents your computer from going to sleep by simulating mouse movement.
+
+<div align="center">
+<img src="https://i.imgur.com/4IyAVsB.png" alt="Mouse Jiggler Interface" width="25%">
+</div>
 
 ## Features
 
