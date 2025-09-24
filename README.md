@@ -48,6 +48,8 @@ A simple and intelligent macOS app that prevents your computer from going to sle
 3. Customize movement patterns, intervals, and other preferences
 4. Use Cmd+Ctrl+K to quickly toggle from anywhere
 
-## License
+---
 
-MIT License - feel free to use and modify as needed.
+<div align="center">
+Created with ❤️ by <a href="https://github.com/abderrahimghazali">Abderrahim Ghazali</a>
+</div>
