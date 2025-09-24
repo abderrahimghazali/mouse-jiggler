@@ -1,0 +1,41 @@
+name: mouse-jiggler
+
+options:
+  bundleIdPrefix: com.mousejiggler
+  deploymentTarget:
+    macOS: "11.0"
+
+settings:
+  base:
+    PRODUCT_BUNDLE_IDENTIFIER: com.mousejiggler.app
+    MARKETING_VERSION: 1.0.0
+    CURRENT_PROJECT_VERSION: 1
+
+targets:
+  mouse-jiggler:
+    type: application
+    platform: macOS
+    sources:
+      - mouse-jiggler
+    info:
+      path: mouse-jiggler/Info.plist
+      properties:
+        CFBundleDisplayName: Mouse Jiggler
+        LSApplicationCategoryType: public.app-category.utilities
+        LSUIElement: true
+    settings:
+      base:
+        INFOPLIST_FILE: mouse-jiggler/Info.plist
+        MACOSX_DEPLOYMENT_TARGET: "11.0"
+        SWIFT_VERSION: "5.0"
+        ENABLE_HARDENED_RUNTIME: true
+        ENABLE_USER_SELECTED_FILES: readwrite
+        SUPPORTS_MACCATALYST: false
+    dependencies:
+      - package: LaunchAtLogin-Modern
+        product: LaunchAtLogin
+
+packages:
+  LaunchAtLogin-Modern:
+    url: https://github.com/sindresorhus/LaunchAtLogin-Modern
+    from: "5.0.0"
