@@ -37,8 +37,8 @@ A simple and intelligent macOS app that prevents your computer from going to sle
 
 ## Requirements
 
-- macOS 11.0+
-- Xcode 12.0+
+- macOS 13.0+
+- Xcode 14.0+
 - [XcodeGen](https://github.com/yonaskolb/XcodeGen) for project generation
 
 ## Usage
