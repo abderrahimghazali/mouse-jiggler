@@ -1,9 +1,16 @@
+<div align="center">
+
 # Mouse Jiggler
+
+![Swift](https://img.shields.io/badge/Swift-5.0-orange.svg)
+![Platform](https://img.shields.io/badge/Platform-macOS-blue.svg)
+![macOS](https://img.shields.io/badge/macOS-13.0+-blue.svg)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
 
 A simple and intelligent macOS app that prevents your computer from going to sleep by simulating mouse movement.
 
-<div align="center">
-<img src="https://i.imgur.com/4IyAVsB.png" alt="Mouse Jiggler Interface" width="25%">
+<img src="mouse-jiggler.png" alt="Mouse Jiggler App" width="25%">
+
 </div>
 
 ## Features
